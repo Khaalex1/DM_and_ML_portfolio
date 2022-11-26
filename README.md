@@ -33,6 +33,23 @@ $$Figure \ 2 \ : Pie \ chart \ of \ the \ dataset$$
 
 ## Lab 3 : Feature extraction
 
+Each sample of the dataset is a (255, 255) image; so, after flattening, samples are 65025-feature vectors. This can be very challenging and computationally intensive to process. 3 feature extraction methods have been investigated in this lab : Mutual Info, F-Statistic and Principal Components Analsis (PCA). Note that PCA uses a transformation on the data, in contrast to the others, which extract only relevant features (pixels). 
+
+PCA has demonstrated better results (by a significant margin) than the other methods  in terms of accuracy, assessed using an SVM (Support Vector Machine) classifier. This method consists in projecting the data in a less dimensional space while conserving the maximum of explained variance (and this, information) of the dataset.
+Therefore, PCA will be used as a pre-processing technique in some of the following labs.
+
+<p align="center">
+  <img src="images/pca_inv.png"/>
+</p>
+
+$$Figure \ 3 \ : Original \ image \ vs \ PCA \ inverse \ transform$$
+
+<p align="center">
+  <img src="images/pca_acc.png"/>
+</p>
+
+  $$Figure \ 4 \ : Accuracy \ comparison \ between \ feature \ extraction \ methods \ using \ SVM$$
+
 ## Lab 4 : Evaluation Metrics
 
 ## Lab 5 : Bayesian Networks
