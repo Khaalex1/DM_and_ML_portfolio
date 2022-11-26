@@ -69,7 +69,7 @@ The goal of this lab is to understand Bayes classifiers and try it on the datase
 Most are naive Bayes models, valid when features are conditionally independant, expressed by : $$P(C_{k}|x)  \propto P(C_{k})\prod \limits_{i=1}^{n} P(x_{i}| C_{k})$$
 $$\hat{y} = \underset{k}{argmax} \ \{P(C_{k})\prod \limits_{i=1}^{n} P(x_{i}| C_{k})\} $$
 Most efficient Bayes models were the Complement one, supposedly because it deals better with unbalanced data (by computing the complementary probas instead of the standard ones); as well as the Complex Gaussian Bayes, which is not surprising as it removes the abusive hypothesis of feature independance, and therefore, is more general.
-The conclusion of this study is that Bayes models are not suitable to our dataset in general, with maybe the exception of Complex Gaussian Bayes which performs pretty well. Indeed, after applying PCA, the data distribution model is not really known, but is not likely to correspond to - for example - Bernoulli or multinomial models either. Therefore, such hypothesis on the data distribution can be highly abusive and produce poor results.
+The conclusion of this study is that Bayes models are not suitable to our dataset in general, with maybe the exception of Complex Gaussian Bayes which performs pretty well. Indeed, after applying PCA, the data distribution is not really known, but is not likely to follow - for example - Bernoulli or multinomial models either. Therefore, such hypothesis on the data distribution can be highly abusive and produce poor results.
 
 <p align="center">
   <img src="images/bayes.png"/>
