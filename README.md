@@ -10,7 +10,7 @@ The first lab was dedicated to discuss and choose a dataset to investigate durin
 3 medical datasets were studied, but the one which apeared as the more convincing was the __Brain Tumor Classification (MRI)__ dataset, available at https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri. This dataset can be used for real life applications, and appears to be challenging by the variety of images contained in it.
 
 <p align="center">
-  <img src="images/meningioma.png" width="500"/>
+  <img src="images/meningioma.png"/>
 </p>
 
 $$Figure \ 1 \ : Example \ of \ Meningioma \ tumor \ in \ the \ dataset$$
