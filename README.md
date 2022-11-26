@@ -108,7 +108,7 @@ We tried variations of the DT's hyperparameters, adn the results of this investi
   $$Figure \ 9 \ :  Hyperparameters \ variations \ of \ the \ Decision \ Tree \ and \ performance $$
   
 A variation of the DT, called Random Forest, outperforms the tradition DT, which is not unusual. It uses bagging and feature randomness when building the tree's nodes.
-With a test size of 30%, the accuracy reached are the following :
+With a test size of 30%, the accuracies reached are the following :
 
 <p align="center">
   <img src="images/random_forest.png"/>
