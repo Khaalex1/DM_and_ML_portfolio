@@ -153,7 +153,7 @@ With a test size of 60% and these parameters, we enhanced the generalization pow
 
 ## Lab 11 : Convolutional Networks (CNN)
 
-In this final lab we study CNNs wy trying, rather blindly, some architectures. This time, we do not use PCA as pre-processing, only the raw images. In general, we notice that low size kernels, strides and pool sizes give better results, as the CNN can get more local properties of images. Processing time is however very long in this case.
+In this final lab we study CNNs by trying, rather blindly, some architectures. This time, we do not use PCA as pre-processing, only the raw images. In general, we notice that low size kernels, strides and pool sizes give better results, as the CNN can get more local properties of images. Processing time is however very long in this case.
 The results are average but tend to increase with the number of epochs. However, as underlined previously, the training time can be considerably long.
 We are confident that with more testing, we can reach better performance, as some kaggle notebooks succeed in reaching 90% accuracy and more on the same dataset, and using CNNs.
 Here are some results on the third architecture tried :
