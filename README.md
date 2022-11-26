@@ -119,6 +119,14 @@ We notice overfitting as there is a considerable difference between the training
 
 ## Lab 9 : Linear and Logistic Regression
 
+Linear and logistic Regression represent the fundamentals of the more advanced models of neural nets (MLP). In this lab we try to search for the optimal hyperparameters of the Regression, but notice that this model often leads to huge overfitting. The most significant hyperparameter is the loss specification. With no suprise, however, we see that classification losses (like log entropy and hinge) perform way better than regression losses (like MSE).
+
+<p align="center">
+  <img src="images/reg.png"/>
+</p>
+
+  $$Figure \ 9 \ :  Regression \ classifier \  performance \ with \ different \ losses $$
+
 ## Lab 10 : Multi-Layer Perceptron
 
 ## Lab 11 : Convolutional Networks
