@@ -2,7 +2,7 @@
 By Y. SCHLOSSER, T. ADELEKE, A. KHA, S. SHAH, A. HARIS
 
 
-This repo contains a portfolio made for the course of Data-Mining (F21DL), delivered by Mrs Komendatskaya at Heriot-Watt University. Different classical Machine Learning techniques were employed to classify brain tumors from an MRI dataset. Neural networks are investigated in the last 2 labs. W present in this README a short summary of the 10 labs.
+This repo contains a portfolio made for the course of Data-Mining (F21DL), delivered by Mrs Komendatskaya at Heriot-Watt University. Different classical Machine Learning techniques were employed to classify brain tumors from an MRI dataset. Neural networks are investigated in the last 2 labs. We present in this README a short summary of the 10 labs.
 
 ## Lab 1 : Dataset choice
 
@@ -86,9 +86,36 @@ Different clustering methods were used, such as K-means, Gaussian Mixture and Ag
   <img src="images/mixture.png"/>
 </p>
 
-  $$Figure \ 7 \ :  Gaussian \ Mixture \ cluters \ vs \ Real \ classes \ clusters \ in \ 2D \ (PCA)$$
+  $$Figure \ 7 \ :  Gaussian \ Mixture \ clusters \ vs \ Real \ classes \ clusters \ in \ 2D \ (PCA)$$
 
 ## Lab 8 : Decision trees
+
+Decision trees (DT) were studied here. The principle remains very simple, consisting in splitting a tree's nodes in function of the feature values, which leads to a classification decision on the terminal leaves.
+
+<p align="center">
+  <img src="images/tree.png"/>
+</p>
+
+  $$Figure \ 8 \ :  Example \ of \ Decision \ Tree \ applied \ on \ the \ dataset \ (max \ depth \ = \3)$$
+  
+We tried variations of the DT's hyperparameters, adn the results of this investigation are summarized in the following table. The hyperparameter columns shows the hyperparameter which was changed while others were taken at their default value (in sklearn). We see that default parameters work in general better, and that the entropy impurity works slightly better than the well known gini one. Peak accuracy reached is good, but not excellent either :
+
+
+<p align="center">
+  <img src="images/dt_metrics.png"/>
+</p>
+
+  $$Figure \ 9 \ :  Hyperparameters \ variations \ of \ the \ Decision \ Tree \ and \ performance $$
+  
+A variation of the DT, called Random Forest, outperforms the tradition DT, which is not unusual. It uses bagging and feature randomness when building the tree's nodes.
+With a test size of 30%, the accuracy reached are the following :
+
+<p align="center">
+  <img src="images/radnom_forest.png"/>
+</p>
+
+We notice overfitting as there is a considerable difference between the training and the testing accuracies. However, this latter can be considered as pretty good.
+
 
 ## Lab 9 : Linear and Logistic Regression
 
