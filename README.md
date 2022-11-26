@@ -18,7 +18,7 @@ $$Figure \ 1 \ : Example \ of \ Meningioma \ tumor \ in \ the \ dataset$$
 ## Lab 2 : Dataset exploration
 
 This lab was dedicated to visualizing and extracting some statistics from the dataset. Each tumor has visual specificities but can still be hard to classify because of its size and the angle (or view) it is seen from.
-While the sataset is balanced among the three tumor classes, the "no tumor" is less represented, which is to be taken in account in the next labs. Here is the repartition of the training set :
+While the dataset is balanced among the three tumor classes, the "no tumor" is less represented, which is to be taken in account in the next labs. Here is the repartition of the training set :
 - glioma_tumor : 826 images
 - meningioma_tumor : 822 images
 - no_tumor : 395 images
