@@ -65,6 +65,11 @@ In this lab, we evaluate the accuracy of some models according to different metr
 
 ## Lab 5 : Bayesian Networks
 
+The goal of this lab is to try and understand some Bayes classifiers on the dataset. 
+Most are naive Bayes models, expressed by : $$P(C_{k}|x)  \propto P(C_{k})\prod \limits_{i=1}^{n} P(x_{i}| C_{k})$$
+$$\hat{y} = \underset{k}{argmax} \Bigg \{P(C_{k})\prod \limits_{i=1}^{n} P(x_{i}| C_{k})\Bigg\} $$
+
+
 ## Lab 7 : Clustering
 
 ## Lab 8 : Decision trees
