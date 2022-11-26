@@ -25,7 +25,9 @@ While the sataset is balanced among the three tumor classes, the "no tumor" is l
 - pituitary_tumor : 827 images
 
 <p align="center">
-  <img src="images/repartition.png"/>
+  <img src="images/repartition.png " 
+       width="400" 
+       height="400"/>
 </p>
 
 $$Figure \ 2 \ : Pie \ chart \ of \ the \ dataset$$
