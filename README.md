@@ -129,7 +129,7 @@ Linear and logistic Regression represent the fundamentals of the more advanced m
 
 ## Lab 10 : Multi-Layer Perceptron (MLP)
 
-In the last 2 labs we use classical neural networks for the classification task. The first one is the MLP, which uses various number of layers, composed of neurons which function each, similarly to the Logistic Regression classifier (particular case of 1 perceptron with sigmoid activation).
+In the last 2 labs we use classical neural networks for the classification task. The first one is the MLP, which uses various layers, composed of neurons which function each, similarly to the Logistic Regression classifier (particular case of 1 perceptron with sigmoid activation).
 Different types of architectures and hyperparameter were tried. The sklearn default ones seem to be the best ("adam" optimizer , "relu" activation).
 
 <p align="center">
