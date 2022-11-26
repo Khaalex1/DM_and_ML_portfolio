@@ -7,7 +7,7 @@ This repo contains a portfolio made for the course of Data-Mining (F21DL), deliv
 ## Lab 1 : Dataset choice
 
 The first lab was dedicated to discuss and choose a dataset to investigate during the following weeks.
-3 medical datasets were studied, but the one which apeared as the more convincing was the __Brain Tumor Classification (MRI)__ dataset, available at https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri. This dataset can be used for real life applications, and appears to be challenging by the variety of images contained in it.
+3 medical datasets were studied, but the one which apeared as the more convincing was the __Brain Tumor Classification (MRI)__ dataset, available at https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri. This dataset can be used for real life applications, and appears to be challenging by the variety of images contained in it. For all the following labs, the images will be resized to (255, 255), and reduced to a single grayscale channel (instead of the RGB channels, still rendering a grayscale aspect).
 
 <p align="center">
   <img src="images/meningioma.png"/>
@@ -151,4 +151,16 @@ With a test size of 60% and these parameters, we enhanced the generalization pow
 </p>
 
 
-## Lab 11 : Convolutional Networks
+## Lab 11 : Convolutional Networks (CNN)
+
+In this final lab we study CNNs wy trying, rather blindly, some architectures. This time, we do not use PCA as pre-processing, only the raw images. In general, we notice that low size kernels, strides and pool sizes give better results, as the CNN can get more local properties of images. Processing time is however very long in this case.
+The results are average but tend to increase with the number of epochs. However, as underlined previously, the training time can be considerably long.
+We are confident that with more testing, we can reach better performance, as some kaggle notebooks succeed in reaching 90% accuracy and more on the same dataset, and using CNNs.
+Here are some results on the third architecture tried :
+
+<p align="center">
+  <img src="images/cnn.png"/>
+</p>
+
+  $$Figure \ 12 \ :  CNN \  performance \ on \ architecture \ 3$$
+
