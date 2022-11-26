@@ -138,7 +138,7 @@ Different types of architectures and hyperparameter were tried. The sklearn defa
 
   $$Figure \ 11 \ :  MLP \ architectures \  performance$$
   
-A grid search has also been performed and give the following best parameters :
+A grid search has also been performed, which gives the following best parameters :
 
 <p align="center">
   <img src="images/grid_search.png"/>
