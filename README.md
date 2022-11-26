@@ -26,7 +26,7 @@ While the sataset is balanced among the three tumor classes, the "no tumor" is l
 
 <p align="center">
   <img src="images/repartition.png " 
-       width="400" 
+       width="500" 
        height="400"/>
 </p>
 
