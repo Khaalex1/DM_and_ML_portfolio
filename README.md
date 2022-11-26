@@ -51,7 +51,7 @@ Therefore, PCA will be used as a pre-processing technique in some of the followi
   <img src="images/pca_acc.png"/>
 </p>
 
-  $$Figure \ 4 \ : Accuracy \ comparison \ between \ feature \ extraction \ methods \ using \ SVM$$
+  $$Figure \ 4 \ : SVM \ Accuracy \ comparison \ between \ feature \ extraction \ methods$$
 
 ## Lab 4 : Evaluation Metrics
 
