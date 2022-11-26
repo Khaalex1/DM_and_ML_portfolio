@@ -96,7 +96,7 @@ Decision trees (DT) were studied here. The principle remains very simple, consis
   <img src="images/tree.png"/>
 </p>
 
-  $$Figure \ 8 \ :  Example \ of \ Decision \ Tree \ applied \ on \ the \ dataset \ (max \ depth \ = \3)$$
+  $$Figure \ 8 \ :  Example \ of \ Decision \ Tree \ applied \ on \ the \ dataset \ (max \ depth \ = \ 3)$$
   
 We tried variations of the DT's hyperparameters, adn the results of this investigation are summarized in the following table. The hyperparameter columns shows the hyperparameter which was changed while others were taken at their default value (in sklearn). We see that default parameters work in general better, and that the entropy impurity works slightly better than the well known gini one. Peak accuracy reached is good, but not excellent either :
 
