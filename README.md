@@ -80,7 +80,7 @@ The conclusion of this study is that Bayes models are not suitable to our datase
 ## Lab 7 : Clustering
 
 Lab 7 was dedicated to investigation of the unsupervised ML technique known as clustering. The idea is simple and consists in separating samples in clusters, which will correspond to their attributed class.
-Different clustering methods were used, such as K-means, Gaussian Mixture and Agglomerative clustering, but in general results were very poor and demonstrated that the data was not separable in clusters.
+Different clustering methods were used, such as K-means, Gaussian Mixture and Agglomerative clustering, but in general results were very poor and demonstrated that the data was not separable in obvious clusters.
 
 <p align="center">
   <img src="images/mixture.png"/>
