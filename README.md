@@ -111,7 +111,7 @@ A variation of the DT, called Random Forest, outperforms the tradition DT, which
 With a test size of 30%, the accuracy reached are the following :
 
 <p align="center">
-  <img src="images/radnom_forest.png"/>
+  <img src="images/random_forest.png"/>
 </p>
 
 We notice overfitting as there is a considerable difference between the training and the testing accuracies. However, this latter can be considered as pretty good.
