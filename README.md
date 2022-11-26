@@ -125,8 +125,30 @@ Linear and logistic Regression represent the fundamentals of the more advanced m
   <img src="images/reg.png"/>
 </p>
 
-  $$Figure \ 9 \ :  Regression \ classifier \  performance \ with \ different \ losses $$
+  $$Figure \ 10 \ :  Regression \ classifier \  performance \ with \ different \ losses $$
 
-## Lab 10 : Multi-Layer Perceptron
+## Lab 10 : Multi-Layer Perceptron (MLP)
+
+In the last 2 labs we use classical neural networks for the classification task. The first one is the MLP, which uses various number of layers, composed of neurons which function each, similarly to the Logistic Regression classifier (particular case of 1 perceptron with sigmoid activation).
+Different types of architectures and hyperparameter were tried. The sklearn default ones seem to be the best ("adam" optimizer , "relu" activation).
+
+<p align="center">
+  <img src="images/mlp.png"/>
+</p>
+
+  $$Figure \ 11 \ :  MLP \ architectures \  performance$$
+  
+A grid search has also been performed and give the following best parameters :
+
+<p align="center">
+  <img src="images/grid_search.png"/>
+</p>
+
+With a test size of 60% and these parameters, we enhanced the generalization power of the MLP as the overfitting has been reduced significantly, and we even reached the best accuracy so far :
+
+<p align="center">
+  <img src="images/best_mlp.png"/>
+</p>
+
 
 ## Lab 11 : Convolutional Networks
