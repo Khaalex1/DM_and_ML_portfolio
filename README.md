@@ -9,7 +9,9 @@ This repo contains a portfolio made for the course of Data-Mining (F21DL), deliv
 The first lab was dedicated to discuss and choose a dataset to investigate during the following weeks.
 3 medical datasets were studied, but the one which apeared as the more convincing was the __Brain Tumor Classification (MRI)__ dataset, available at https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri. This dataset can be used for real life applications, and appears to be challenging by the variety of images contained in it.
 
-<img src="images/meningioma.png" width="500" class='center'/>
+<p align="center">
+  <img src="images/meningioma.png" width="500"/>
+</p>
 
 $$Figure \ 1 \ : Example \ of \ Meningioma \ tumor \ in \ the \ dataset$$
 
