@@ -57,7 +57,11 @@ Therefore, PCA will be used as a pre-processing technique in some of the followi
 
 In this lab, we evaluate the accuracy of some models according to different metrics, and try to see if some are more relevant than others. It appears that accuracy remains a strong indicator of performance. f1-score is relevant as well. The AUC score, which traduces the trade-off between TPR and FPR however, can be seen as less relevant. Indeed, we see that it can produce good results even when the precision or recall are low (or even equal to 0). It can be explained by the fact that it evaluates the models in binary cases (which can produce somewhat good results, in "One Vs All" or "One Vs One" strategies), rather than in the multi-class case.
 
+<p align="center">
+  <img src="images/eval.png"/>
+</p>
 
+  $$Figure \ 5 \ :  Different \ metric \ results \ on \ the \ dataset$$
 
 ## Lab 5 : Bayesian Networks
 
