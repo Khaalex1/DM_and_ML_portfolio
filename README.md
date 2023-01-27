@@ -2,7 +2,7 @@
 By Y. SCHLOSSER, T. ADELEKE, A. KHA, S. SHAH, A. HARIS
 
 
-This repo contains a portfolio made for the course of Data-Mining (F21DL), delivered by Mrs Komendantskaya at Heriot-Watt University. Different classical Machine Learning techniques were employed to classify brain tumors from an MRI dataset. Neural networks are investigated in the last 2 labs. We present in this README a short summary of the 10 labs.
+This repo contains a portfolio made for the course of Data-Mining (F21DL) at Heriot-Watt University. Different classical Machine Learning techniques were employed to classify brain tumors from an MRI dataset. Neural networks are investigated in the last 2 labs. We present in this README a short summary of the 10 labs.
 
 ## Lab 1 : Dataset choice
 
